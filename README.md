@@ -5,10 +5,10 @@ This program is used to service GET and POST requests to fetch existing users an
 This program has been implemented using `PHP 7` and `MySQL 5.7` on `Ubuntu Linux 16.04`.
 
 ### Installation
-(1) Unpack the code into the root web directory. 
-(2) Create the database user, database, and table using `scripts/createTable.sql`. 
-(3) Run `composer install` from the root web directory to install `PhpUnit`.
-(4) Update `conf/settings.ini` with appropriate values for your DB instance.
+1. Unpack the code into the root web directory. 
+2. Create the database user, database, and table using `scripts/createTable.sql`. 
+3. Run `composer install` from the root web directory to install `PhpUnit`.
+4. Update `conf/settings.ini` with appropriate values for your DB instance.
 
 ### Run unit tests
 From the root web directory, run the following command to run all the unit tests:
