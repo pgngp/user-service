@@ -12,7 +12,7 @@ This program has been implemented using `PHP 7` and `MySQL 5.7` on `Ubuntu Linux
 
 ### Run unit tests
 From the root web directory, run the following command to run all the unit tests:
-```php
+```bash
 $ php vendor/bin/phpunit test
 ```
 
