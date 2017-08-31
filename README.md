@@ -18,7 +18,7 @@ $ php vendor/bin/phpunit test
 
 ### Fetch all users
 From the client machine, run the following curl command:
-```
+```sh
 $ curl -H "Content-Type: application/json" -i http://<SERVER_IP>/v1/users
 ```
 
@@ -34,7 +34,7 @@ When this command is issued, the following sequence takes place:
 
 ### Fetch users using search criteria
 From the client machine, run the following curl command:
-```
+```sh
 $ curl -H "Content-Type: application/json" -i http://<SERVER_IP>/v1/users?query=<SEARCH_CRITERIA>
 ```
 
@@ -50,7 +50,7 @@ When this command is issued, the following sequence takes place:
 
 ### Add user
 From the client machine, run the following curl command:
-```
+```sh
 $ curl -H "Content-Type: application/json" -X POST -i http://<SERVER_IP>/v1/users -d "{\"email\":\"<EMAIL_ADDR>\", \"phone_number\":\"<PHONE_NUM>\", \"full_name\":\"<FULL_NAME>\", \"password\":\"<PASSWORD>\", \"metadata\":\"<METADATA>\"}"
 ```
 
